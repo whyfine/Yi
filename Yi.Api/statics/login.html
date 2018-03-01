@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.5.1/fingerprint2.min.js"></script>-->
+    <!--<script src="http://app.recolte-cn.cn/jc.js"></script>-->
+    <script src="monitor.js"></script>
+    <script type="text/javascript">
+        //new Fingerprint2().get(function (result, components) {
+        //    document.body.getElementsByTagName('div')[0].innerHTML = 'browser_id : ' + result; //a hash, representing your device fingerprint
+        //    console.log(components); // an array of FP components
+        //});
+        var jc = new Monitor();
+        jc.initPage("1", "洗发水", "0", "清扬200ml");
+
+        function clickme(e) {
+            if (e == "onLogin")
+                jc.onLogin("member_ljr1", true);
+            else if (e == "onRegister")
+                jc.onRegister("member_ljr", true);
+            else if (e == "onAddColl")
+                jc.onAddColl(true);
+            else if (e == "onAddComment")
+                jc.onAddComment(true);
+            else if (e == "onAddOrder")
+                jc.onAddOrder("oid_111", true);
+            else if (e == "onPayOrder")
+                jc.onPayOrder("oid_111", true);
+        }
+
+    </script>
+</head>
+<body style="text-align:center;">
+    <button type="button" onclick="clickme('onLogin');" monitor-click='{"eventName":"onLogin","eventData":{"UserName":"ljr","Mobile":"13333333333"}}'>登陆</button>
+    <hr />
+    <button type="button" onclick="clickme('onRegister');" monitor-click='{"eventName":"onRegister","eventData":{"UserName":"ljr","Mobile":"13333333333"}}'>注册</button>
+    <hr />
+    <button type="button" onclick="clickme('onAddColl');" monitor-click='{"eventName":"onAddColl","eventData":{"ContentId":1,"ContentTitle":"清扬洗发水"}}'>收藏</button>
+    <hr />
+    <button type="button" onclick="clickme('onAddComment');" monitor-click='{"eventName":"onAddComment","eventData":{"ContentId":1,"Level":3,"Content":"清扬洗发水","HasImg":true}}'>评论</button>
+    <hr />
+    <button type="button" onclick="clickme('onAddOrder');" monitor-click='{"eventName":"onAddOrder","eventData":{"OrderValue":10,"Province":"北京","City":"北京","Area":"海淀","Details":[{"contentId":1,"Num":2}]}}'>订单</button>
+    <hr />
+    <button type="button" onclick="clickme('onPayOrder');" monitor-click='{"eventName":"onPayOrder","eventData":{"PayValue":10,"PayWay":0}}'>支付</button>
+    <hr />
+    <a href="www.baidu.com" target="_blank" monitor-click='{"Title":"click me","Target":"baidu.com"}'>dianwoa</a>
+</body>
+</html>
+
+s_server_admin-> web generate secretkey db
+
+
+u_server->ui   ->ios/andriod->sdk->s_server1->bd1->s_server2->db2->s_server3
+               ->web/wxa    ->js ->s_server1->bd1->s_server2->db2->s_server3
+
+
+content-> page({channel,sku})
+          api({requestId})
+          register({uid,result})
+          addcart({sku,title})
+          addorder({id,value,address,[{sku,title,num}]})
+          payorder({id,value})
+          addcomment({sku,level,content,hasImg})
+
+
+static view->  api-> xn
+               member-> pv uv register sku
+               content-> channel pageviews
+                         sku pageviews
+                         sku sales
+                         sku comments
+               order-> num total
+                       value total
+                       address total
+               needs-> sku+sku sale
+                       sku=sku recommend
+
+
+

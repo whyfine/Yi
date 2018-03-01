@@ -1,0 +1,15 @@
+C:\Users\empty\Desktop\github\Yi\Yi.Core\bin\Debug\Yi.Core.dll.config
+C:\Users\empty\Desktop\github\Yi\Yi.Core\bin\Debug\Yi.Core.dll
+C:\Users\empty\Desktop\github\Yi\Yi.Core\bin\Debug\Yi.Core.pdb
+C:\Users\empty\Desktop\github\Yi\Yi.Core\bin\Debug\EFExt.dll
+C:\Users\empty\Desktop\github\Yi\Yi.Core\bin\Debug\EntityFramework.dll
+C:\Users\empty\Desktop\github\Yi\Yi.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\empty\Desktop\github\Yi\Yi.Core\bin\Debug\System.Data.SQLite.dll
+C:\Users\empty\Desktop\github\Yi\Yi.Core\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\empty\Desktop\github\Yi\Yi.Core\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\empty\Desktop\github\Yi\Yi.Core\bin\Debug\EntityFramework.xml
+C:\Users\empty\Desktop\github\Yi\Yi.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\empty\Desktop\github\Yi\Yi.Core\bin\Debug\System.Data.SQLite.xml
+C:\Users\empty\Desktop\github\Yi\Yi.Core\obj\Debug\Yi.Core.csprojResolveAssemblyReference.cache
+C:\Users\empty\Desktop\github\Yi\Yi.Core\obj\Debug\Yi.Core.dll
+C:\Users\empty\Desktop\github\Yi\Yi.Core\obj\Debug\Yi.Core.pdb

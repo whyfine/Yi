@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Overview";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="layui-tab">
+    <ul class="layui-tab-title">
+        <li class="layui-this">昨日</li>
+        <li>上一周</li>
+        <li>上一月</li>
+    </ul>
+    <div class="layui-tab-content">
+        <div class="layui-tab-item layui-show">
+            <div id="main1" style="width: 1000px;height:400px;"></div>
+        </div>
+        <div class="layui-tab-item">内容2</div>
+        <div class="layui-tab-item">内容3</div>
+    </div>
+</div>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main1'));
+
+    // 指定图表的配置项和数据
+    var option = {
+        title: {
+            text: ''
+        },
+        tooltip: {},
+        legend: {
+            data: ['昨日概览']
+        },
+        xAxis: {
+            data: ["PV", "UV", "注册数", "销售量", "下单", "支付", "分类浏览量", "内容浏览量","监测数"]
+        },
+        yAxis: {},
+        series: [{
+            name: '昨日概览',
+            type: 'bar',
+            data: [5, 20, 36, 10, 10, 20,200,315,80]
+        }]
+    };
+
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+</script>

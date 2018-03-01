@@ -1,0 +1,13 @@
+C:\Users\empty\Desktop\github\Yi\Yi.PivotorConsole\bin\Debug\Yi.MonitorCore.dll
+C:\Users\empty\Desktop\github\Yi\Yi.PivotorConsole\bin\Debug\EntityFramework.dll
+C:\Users\empty\Desktop\github\Yi\Yi.PivotorConsole\bin\Debug\SimpleTaskJob.dll
+C:\Users\empty\Desktop\github\Yi\Yi.PivotorConsole\bin\Debug\Yi.PivotCore.dll
+C:\Users\empty\Desktop\github\Yi\Yi.PivotorConsole\bin\Debug\EFExt.dll
+C:\Users\empty\Desktop\github\Yi\Yi.PivotorConsole\bin\Debug\Yi.MonitorCore.pdb
+C:\Users\empty\Desktop\github\Yi\Yi.PivotorConsole\bin\Debug\Yi.PivotCore.pdb
+C:\Users\empty\Desktop\github\Yi\Yi.PivotorConsole\obj\Debug\Yi.PivotorConsole.csprojResolveAssemblyReference.cache
+C:\Users\empty\Desktop\github\Yi\Yi.PivotorConsole\obj\Debug\Yi.PivotorConsole.exe
+C:\Users\empty\Desktop\github\Yi\Yi.PivotorConsole\obj\Debug\Yi.PivotorConsole.pdb
+C:\Users\empty\Desktop\github\Yi\Yi.PivotorConsole\bin\Debug\Yi.PivotorConsole.exe.config
+C:\Users\empty\Desktop\github\Yi\Yi.PivotorConsole\bin\Debug\Yi.PivotorConsole.exe
+C:\Users\empty\Desktop\github\Yi\Yi.PivotorConsole\bin\Debug\Yi.PivotorConsole.pdb

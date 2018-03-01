@@ -1,0 +1,9 @@
+C:\Users\empty\Desktop\github\Yi\Yi.PivotCore\bin\Debug\Yi.PivotCore.dll
+C:\Users\empty\Desktop\github\Yi\Yi.PivotCore\bin\Debug\Yi.PivotCore.pdb
+C:\Users\empty\Desktop\github\Yi\Yi.PivotCore\bin\Debug\EFExt.dll
+C:\Users\empty\Desktop\github\Yi\Yi.PivotCore\bin\Debug\EntityFramework.dll
+C:\Users\empty\Desktop\github\Yi\Yi.PivotCore\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\empty\Desktop\github\Yi\Yi.PivotCore\bin\Debug\MySql.Data.dll
+C:\Users\empty\Desktop\github\Yi\Yi.PivotCore\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\empty\Desktop\github\Yi\Yi.PivotCore\obj\Debug\Yi.PivotCore.dll
+C:\Users\empty\Desktop\github\Yi\Yi.PivotCore\obj\Debug\Yi.PivotCore.pdb
